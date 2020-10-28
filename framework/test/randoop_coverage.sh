@@ -4,11 +4,8 @@
 # This script generates coverage data for Randoop generated tests over the defects4j suite.
 # By default, it does so for just 6 projects and bug ids 1-5 in each project.
 # An optional first agument will replace the default project list.
-# If first argument is present:
-# An optional second agument will replace the default bid list.
-# An optional second agument of 'all' will set the bid list to all valid bids.
-# If second argument is present:
-# An optional third agument of 'debug' will set the defects4j DEBUG flag
+# An optional second agument will replace the default bid list; "all" means all valid bids.
+# An optional third agument of 'debug' will set the defects4j DEBUG flag.
 #
 ################################################################################
 
@@ -47,15 +44,15 @@ else
 # Generate tests for supplied bid list
             bids=( $2 )
         fi
-        if [ ! -z "$3" ] ; then
-            if [ $3 == "debug" ]; then
-                D4J_DEBUG=1
-                export D4J_DEBUG
-            else
-                echo "expected 'debug' as third argument"
-                exit 1
-            fi
-        fi
+    fi
+fi
+if [ ! -z "$3" ] ; then
+    if [ $3 == "debug" ]; then
+        D4J_DEBUG=1
+        export D4J_DEBUG
+    else
+        echo "expected 'debug' as third argument"
+        exit 1
     fi
 fi
 
