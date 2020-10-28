@@ -90,7 +90,7 @@ expected_test_count=0
 
 for pid in "${projects[@]}"; do
     if (( all_bids == 1 )); then
-        bids=($(defects4j query -p $pid))
+        bids=($(defects4j bids -p $pid))
     fi
 
     echo "Project: $pid"
