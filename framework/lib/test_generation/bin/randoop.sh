@@ -60,7 +60,7 @@ printf " " >&2
 JUNIT=$(realpath "$D4J_HOME"/framework/projects/lib/junit*.jar)
 
 # The most common package in file $D4J_FILE_TARGET_CLASSES.
-PACKAGE=$(sed 's/\.[A-Z][^.]\+//' "$D4J_FILE_TARGET_CLASSES" | uniq -c | sort -rn | sed -E 's/^ *[0-9]+ //g' | head -1)
+PACKAGE=$(sed 's/\.[A-Za-z_$][^.]\+//' "$D4J_FILE_TARGET_CLASSES" | uniq -c | sort -rn | sed -E 's/^ *[0-9]+ //g' | head -1)
 
 # Build the test-generation command
 cmd="java -ea -classpath $project_cp:$JUNIT:$D4J_DIR_TESTGEN_LIB/randoop-current.jar \
