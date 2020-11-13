@@ -4,6 +4,9 @@ framework/lib/build_systems
 framework/lib/test_generation/*
 !framework/lib/test_generation/bin
 framework/test/*.log
+framework/test/defects4j_README.md
+framework/test/defects4j_coverage.pl
+framework/test/defects4j_randoop.sh
 project_repos/*
 !project_repos/get_repos.sh
 major/
