@@ -33,6 +33,9 @@ project_cp=$(get_project_cp)
 
 # Read all additional configuration parameters
 add_config=$(parse_config "$D4J_DIR_TESTGEN_BIN/randoop.config")
+if grep RandomStringUtils "$D4J_FILE_TARGET_CLASSES" ; then
+  add_config="$add_config --omit-classes-no-defaults=true"
+fi
 
 # Make sure the provided test mode is supported
 if [ "$D4J_TEST_MODE" == "regression" ]; then
