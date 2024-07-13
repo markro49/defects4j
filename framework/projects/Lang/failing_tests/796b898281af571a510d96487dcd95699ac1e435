@@ -1,4 +1,16 @@
 ## commons-lang: 796b898281af571a510d96487dcd95699ac1e435 ##
+--- org.apache.commons.lang.builder.ToStringBuilderTest::testReflectionBoolean
+--- org.apache.commons.lang.builder.ToStringBuilderTest::testObjectCycle
+--- org.apache.commons.lang.builder.ToStringBuilderTest::testReflectionHierarchy
+--- org.apache.commons.lang.builder.ToStringBuilderTest::testSelfInstanceTwoVarsReflectionObjectCycle
+--- org.apache.commons.lang.builder.ToStringBuilderTest::testReflectionArrayCycle
+--- org.apache.commons.lang.builder.ToStringBuilderTest::testReflectionLongArrayArray
+--- org.apache.commons.lang.builder.ToStringBuilderTest::testReflectionArrayArrayCycle
+--- org.apache.commons.lang.builder.ToStringBuilderTest::testReflectionFloatArray
+--- org.apache.commons.lang.builder.ToStringBuilderTest::testReflectionDoubleArrayArray
+--- org.apache.commons.lang.builder.ToStringBuilderTest::testReflectionInteger
+--- org.apache.commons.lang.builder.ToStringBuilderTest::testReflectionCharacter
+--- org.apache.commons.lang.builder.ToStringBuilderTest::testReflectionFloatArrayArray
 --- org.apache.commons.lang.CharUtilsPerfTest
 java.lang.Exception: No runnable methods
 	at org.junit.runners.BlockJUnit4ClassRunner.validateInstanceMethods(BlockJUnit4ClassRunner.java:169)

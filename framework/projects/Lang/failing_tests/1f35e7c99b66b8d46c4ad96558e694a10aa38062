@@ -1,4 +1,6 @@
 ## commons-lang: 1f35e7c99b66b8d46c4ad96558e694a10aa38062 ##
+--- org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest::testIntegerWithTransients
+--- org.apache.commons.lang3.builder.HashCodeBuilderAndEqualsBuilderTest::testInteger
 --- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionHierarchyArrayList
 junit.framework.ComparisonFailure: expected:<...d60c28[elementData={[<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>]},size=0,modCount=0]> but was:<...d60c28[elementData={[]},size=0,modCount=0]>
 	at junit.framework.Assert.assertEquals(Assert.java:100)

@@ -1,4 +1,10 @@
 ## joda-time: 8612f9e5b88c1bea933ef9ab1e431f5db3006b48 ##
+--- org.joda.time.TestDateMidnight_Properties::testPropertyGetMonthOfYear
+--- org.joda.time.TestDateTime_Properties::testPropertyGetMonthOfYear
+--- org.joda.time.TestMonthDay_Properties::testPropertyGetMonthOfYear
+--- org.joda.time.TestMutableDateTime_Properties::testPropertyGetMonthOfYear
+--- org.joda.time.convert.TestCalendarConverter::testGetChronology_Object_Zone
+--- org.joda.time.convert.TestCalendarConverter::testGetChronology_Object_nullChronology
 --- org.joda.time.TestPartial_Constructors::testConstructorEx7_TypeArray_intArray
 junit.framework.AssertionFailedError
 	at junit.framework.Assert.fail(Assert.java:55)

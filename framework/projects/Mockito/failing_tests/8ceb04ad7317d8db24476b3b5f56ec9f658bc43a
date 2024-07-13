@@ -1,3 +1,6 @@
+--- org.mockito.internal.creation.MethodInterceptorFilterTest::shouldProvideOwnImplementationOfHashCode
+--- org.mockito.internal.creation.MethodInterceptorFilterTest::shouldProvideOwnImplementationOfEquals
+--- org.mockitousage.stubbing.StubbingWithDelegateTest::null_wrapper_dont_throw_exception_from_org_mockito_package
 --- org.mockito.internal.verification.VerificationOverTimeImplTest::should_deal_with_junit_assertion_error
 org.mockito.exceptions.verification.junit.ArgumentsAreDifferent: message
 	at org.mockito.internal.stubbing.answers.ThrowsException.answer(ThrowsException.java:28)

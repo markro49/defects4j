@@ -1,4 +1,17 @@
 ## jackson-databind: a1404d5684783ccf28dc1b0a2791ce7c0c311907 ##
+--- com.fasterxml.jackson.databind.creators.ArrayDelegatorCreatorForCollectionTest::testUnmodifiable
+--- com.fasterxml.jackson.databind.deser.exc.TestExceptionDeserialization::testSingleValueArrayDeserialization
+--- com.fasterxml.jackson.databind.ext.TestCoreXMLTypes::testDurationSer
+--- com.fasterxml.jackson.databind.ext.TestCoreXMLTypes::testQNameSer
+--- com.fasterxml.jackson.databind.introspect.NoClassDefFoundWorkaroundTest::testClassIsMissing
+--- com.fasterxml.jackson.databind.introspect.NoClassDefFoundWorkaroundTest::testUseMissingClass
+--- com.fasterxml.jackson.databind.jsontype.TestDefaultForObject::testEnumAsObject
+--- com.fasterxml.jackson.databind.jsontype.TestTypedArraySerialization::testStringListAsProp
+--- com.fasterxml.jackson.databind.jsontype.TestTypedArraySerialization::testStringListAsObjectWrapper
+--- com.fasterxml.jackson.databind.jsontype.TestTypedArraySerialization::testIntList
+--- com.fasterxml.jackson.databind.jsontype.TestTypedDeserialization::testSimpleClassAsProperty
+--- com.fasterxml.jackson.databind.ser.TestJacksonTypes::testTokenBuffer
+--- com.fasterxml.jackson.databind.views.TestViewSerialization::testImplicitAutoDetection
 --- com.fasterxml.jackson.databind.BaseMapTest
 junit.framework.AssertionFailedError: Class com.fasterxml.jackson.databind.BaseMapTest has no public constructor TestCase(String name) or TestCase()
 	at junit.framework.Assert.fail(Assert.java:57)

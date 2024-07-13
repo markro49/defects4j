@@ -1,4 +1,5 @@
 ## gson: c6a4f55d1a9b191dbbd958c366091e567191ccab ##
+--- com.google.gson.functional.ExclusionStrategyFunctionalTest::testExclusionStrategySerialization
 --- com.google.gson.functional.DefaultTypeAdaptersTest::testDefaultDateDeserialization
 --- com.google.gson.functional.DefaultTypeAdaptersTest::testDefaultJavaSqlTimestampDeserialization
 --- com.google.gson.functional.DefaultTypeAdaptersTest::testDefaultJavaSqlTimestampSerialization

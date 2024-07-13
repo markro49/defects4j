@@ -1,3 +1,4 @@
+--- org.mockitousage.stubbing.StubbingWithDelegateTest::null_wrapper_dont_throw_exception_from_org_mockito_package
 --- org.concurrentmockito.ThreadsRunAllTestsHalfManualTest::shouldRunInMultipleThreads
 junit.framework.AssertionFailedError: Run in multiple thread failed
 	at junit.framework.Assert.fail(Assert.java:57)

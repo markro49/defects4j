@@ -1,4 +1,10 @@
 --- org.joda.time.TestDateTimeZone::testGetName_berlin
+--- org.joda.time.TestDateMidnight_Properties::testPropertyGetMonthOfYear
+--- org.joda.time.TestDateTime_Properties::testPropertyGetMonthOfYear
+--- org.joda.time.TestMonthDay_Properties::testPropertyGetMonthOfYear
+--- org.joda.time.TestMutableDateTime_Properties::testPropertyGetMonthOfYear
+--- org.joda.time.convert.TestCalendarConverter::testGetChronology_Object_Zone
+--- org.joda.time.convert.TestCalendarConverter::testGetChronology_Object_nullChronology
 junit.framework.ComparisonFailure: expected:<[Central European Time]> but was:<[+01:00]>
 	at junit.framework.Assert.assertEquals(Assert.java:100)
 	at junit.framework.Assert.assertEquals(Assert.java:107)

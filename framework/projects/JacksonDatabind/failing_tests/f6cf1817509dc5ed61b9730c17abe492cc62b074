@@ -1,4 +1,8 @@
 ## jackson-databind: f6cf1817509dc5ed61b9730c17abe492cc62b074 ##
+--- com.fasterxml.jackson.databind.deser.creators.ArrayDelegatorCreatorForCollectionTest::testUnmodifiable
+--- com.fasterxml.jackson.databind.exc.StackTraceElementTest::testCustomStackTraceDeser
+--- com.fasterxml.jackson.databind.format.MapEntryFormatTest::testDefaultShapeOverride
+--- com.fasterxml.jackson.databind.util.ClassUtilTest::testFindEnumType
 --- com.fasterxml.jackson.databind.BaseMapTest
 junit.framework.AssertionFailedError: Class com.fasterxml.jackson.databind.BaseMapTest has no public constructor TestCase(String name) or TestCase()
 	at junit.framework.Assert.fail(Assert.java:57)

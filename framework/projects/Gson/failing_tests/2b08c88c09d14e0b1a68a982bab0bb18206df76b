@@ -1,4 +1,10 @@
 ## gson: 2b08c88c09d14e0b1a68a982bab0bb18206df76b ##
+--- com.google.gson.functional.DefaultTypeAdaptersTest::testNullSerialization
+--- com.google.gson.functional.ThrowableFunctionalTest::testErrorWithoutCause
+--- com.google.gson.functional.ThrowableFunctionalTest::testSerializedNameOnExceptionFields
+--- com.google.gson.functional.ThrowableFunctionalTest::testExceptionWithCause
+--- com.google.gson.functional.ThrowableFunctionalTest::testExceptionWithoutCause
+--- com.google.gson.functional.ThrowableFunctionalTest::testErrornWithCause
 --- com.google.gson.functional.DefaultTypeAdaptersTest::testDefaultDateDeserialization
 --- com.google.gson.functional.DefaultTypeAdaptersTest::testDefaultJavaSqlTimestampDeserialization
 --- com.google.gson.functional.DefaultTypeAdaptersTest::testDefaultDateSerializationUsingBuilder

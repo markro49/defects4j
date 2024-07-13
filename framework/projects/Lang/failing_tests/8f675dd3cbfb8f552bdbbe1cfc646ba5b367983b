@@ -1,4 +1,16 @@
 ## commons-lang: 8f675dd3cbfb8f552bdbbe1cfc646ba5b367983b ##
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionBoolean
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testObjectCycle
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionHierarchy
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testSelfInstanceTwoVarsReflectionObjectCycle
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionArrayCycle
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionLongArrayArray
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionArrayArrayCycle
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionFloatArray
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionDoubleArrayArray
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionInteger
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionCharacter
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionFloatArrayArray
 --- org.apache.commons.lang3.ClassUtilsTest::test_isAssignable
 --- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionHierarchyArrayList
 junit.framework.ComparisonFailure: expected:<...786a70[elementData={[<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>]},size=0,modCount=0]> but was:<...786a70[elementData={[]},size=0,modCount=0]>

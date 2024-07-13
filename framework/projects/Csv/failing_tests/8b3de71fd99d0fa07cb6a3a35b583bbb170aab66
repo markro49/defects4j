@@ -1,4 +1,9 @@
 ## commons-csv: 8b3de71fd99d0fa07cb6a3a35b583bbb170aab66 ##
+--- org.apache.commons.csv.CSVPrinterTest::testCloseWithCsvFormatAutoFlushOff
+--- org.apache.commons.csv.CSVPrinterTest::testCloseBackwardCompatibility
+--- org.apache.commons.csv.CSVPrinterTest::testCloseWithCsvFormatAutoFlushOn
+--- org.apache.commons.csv.CSVPrinterTest::testCloseWithFlushOn
+--- org.apache.commons.csv.CSVPrinterTest::testCloseWithFlushOff
 --- org.apache.commons.csv.CSVFileParserTest::testCSVUrl
 java.lang.IllegalArgumentException: Parameter 'url' must not be null!
 	at org.apache.commons.csv.Assertions.notNull(Assertions.java:35)

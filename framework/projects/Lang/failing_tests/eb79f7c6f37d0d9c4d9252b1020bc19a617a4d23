@@ -1,4 +1,16 @@
 ## commons-lang: eb79f7c6f37d0d9c4d9252b1020bc19a617a4d23 ##
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionBoolean
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testObjectCycle
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionHierarchy
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testSelfInstanceTwoVarsReflectionObjectCycle
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionArrayCycle
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionLongArrayArray
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionArrayArrayCycle
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionFloatArray
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionDoubleArrayArray
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionInteger
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionCharacter
+--- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionFloatArrayArray
 --- org.apache.commons.lang3.builder.ToStringBuilderTest::testReflectionHierarchyArrayList
 junit.framework.ComparisonFailure: expected:<...febf99[elementData={[<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>,<null>]},size=0,modCount=0]> but was:<...febf99[elementData={[]},size=0,modCount=0]>
 	at junit.framework.Assert.assertEquals(Assert.java:100)

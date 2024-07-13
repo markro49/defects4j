@@ -1,4 +1,12 @@
 ## gson: 03a72e752ef68269990f984c9fd613cfd59224bc ##
+--- com.google.gson.functional.DefaultTypeAdaptersTest::testNullSerialization
+--- com.google.gson.functional.ThrowableFunctionalTest::testErrorWithoutCause
+--- com.google.gson.functional.ThrowableFunctionalTest::testSerializedNameOnExceptionFields
+--- com.google.gson.functional.ThrowableFunctionalTest::testExceptionWithCause
+--- com.google.gson.functional.ThrowableFunctionalTest::testExceptionWithoutCause
+--- com.google.gson.functional.ThrowableFunctionalTest::testErrornWithCause
+--- com.google.gson.internal.bind.RecursiveTypesResolveTest::testIssue440WeakReference
+--- com.google.gson.internal.bind.RecursiveTypesResolveTest::testIssue603PrintStream
 --- com.google.gson.functional.DefaultTypeAdaptersTest::testDefaultDateDeserialization
 --- com.google.gson.functional.DefaultTypeAdaptersTest::testDefaultDateSerialization
 --- com.google.gson.functional.DefaultTypeAdaptersTest::testDefaultDateSerializationUsingBuilder

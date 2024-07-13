@@ -1,4 +1,7 @@
 ## commons-lang: 15360774099b2a7230e020751acdf6979b6e3f58 ##
+--- org.apache.commons.lang.builder.CompareToBuilderTest::testReflectionHierarchyCompareExcludeFields
+--- org.apache.commons.lang.builder.CompareToBuilderTest::testReflectionHierarchyCompare
+--- org.apache.commons.lang.builder.CompareToBuilderTest::testReflectionHierarchyCompareTransients
 --- org.apache.commons.lang.CharUtilsPerfTest
 java.lang.Exception: No runnable methods
 	at org.junit.runners.BlockJUnit4ClassRunner.validateInstanceMethods(BlockJUnit4ClassRunner.java:169)

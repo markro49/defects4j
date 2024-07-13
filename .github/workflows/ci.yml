@@ -6,8 +6,8 @@ jobs:
     env:
       JDK_OS: linux
       JDK_ARCH: x64
-      JDK_VERSION: 11u17
-      JDK_DIR: jdk-11.0.17
+      JDK_VERSION: 17u11
+      JDK_DIR: jdk-17.0.11
     steps:
     - uses: actions/checkout@v4
       with:
