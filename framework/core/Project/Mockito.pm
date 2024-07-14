@@ -163,6 +163,14 @@ sub _post_checkout {
     foreach my $file (@entries) {
         if ($file =~ /-(\d+)-(\d+).diff/) {
             if ($vid >= $1 && $vid <= $2) {
+                # many of the Mockito source files are in DOS/Windows format
+                # convert to unix format before trying to apply the patch
+                open my $patch, '<', "$compile_errors/$file";
+                my $firstline = <$patch>;
+                close $patch;
+                (my $filename = $firstline) =~ s/^.............//;
+                $filename =~ s/ .*//;
+                Utils::exec_cmd("dos2unix -q $work_dir/$filename", "run dos2unix on patch target");
                 $self->apply_patch($work_dir, "$compile_errors/$file")
                         or confess("Couldn't apply patch ($file): $!");
             }
