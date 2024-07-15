@@ -32,6 +32,8 @@ jobs:
         echo "$JAVA_HOME/bin" >> $GITHUB_PATH
     - name: Install diffstat
       run: sudo apt-get install diffstat
+    - name: Install dos2unix
+      run: sudo apt-get install dos2unix
     - name: Install Carton
       uses: perl-actions/install-with-cpanm@v1
       with:
